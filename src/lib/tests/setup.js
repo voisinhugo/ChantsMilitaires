@@ -32,3 +32,14 @@ jest.mock('react-native-gesture-handler', () => {
     Directions: {},
   };
 });
+
+/**
+ * Suppress Animated warnings about `useNativeDriver` globally.
+ */
+const originalWarn = console.warn;
+console.warn = (...args: any[]) => {
+  if (/Animated: `useNativeDriver` is not supported/.test(args[0])) {
+    return;
+  }
+  originalWarn.call(console, ...args);
+};
