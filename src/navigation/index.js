@@ -15,8 +15,8 @@ const Arrow = navigation => (
 
 const styles = StyleSheet.create({
   arrowText: {
-    margin: 8,
-    marginLeft: 16,
+    margin: theme.margin.x1,
+    marginLeft: theme.margin.x2,
     fontSize: 30,
     lineHeight: 32,
     color: 'white',
@@ -51,7 +51,7 @@ export const StackNavigator = createStackNavigator(
       headerTitleStyle: {
         textAlignVertical: 'center',
         color: theme.color.white,
-        fontSize: 30,
+        fontSize: theme.fontSize.title,
       },
     },
   },
