@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MusicView should render 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#272727",
+      "flexGrow": 1,
+    }
+  }
+>
+  <RCTSafeAreaView
+    emulateUnlessSupported={true}
+  >
+    <RCTScrollView>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+              "margin": 16,
+            }
+          }
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+        </Text>
+      </View>
+    </RCTScrollView>
+  </RCTSafeAreaView>
+</View>
+`;

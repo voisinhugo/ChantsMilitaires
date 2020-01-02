@@ -3,6 +3,7 @@ export const getPropsWithNavigation = (props, navigationPropExtension) => ({
   navigation: {
     navigate: jest.fn(),
     goBack: jest.fn(),
+    getParam: jest.fn(),
     ...navigationPropExtension,
   },
 });
