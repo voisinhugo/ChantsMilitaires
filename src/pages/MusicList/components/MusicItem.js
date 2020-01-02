@@ -7,10 +7,10 @@ const styles = StyleSheet.create({
     backgroundColor: theme.color.background,
   },
   musicText: {
-    marginLeft: 16,
-    marginVertical: 8,
+    marginLeft: theme.margin.x2,
+    marginVertical: theme.margin.x1,
     color: theme.color.white,
-    fontSize: 24,
+    fontSize: theme.fontSize.heading,
   },
 });
 

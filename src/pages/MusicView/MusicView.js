@@ -9,8 +9,8 @@ const styles = StyleSheet.create({
     backgroundColor: theme.color.background,
   },
   lyrics: {
-    margin: 16,
-    fontSize: 20,
+    margin: theme.margin.x2,
+    fontSize: theme.fontSize.body,
     color: theme.color.white,
   },
 });
