@@ -17,6 +17,7 @@ const styles = StyleSheet.create({
 
 export const MusicView = ({navigation}) => {
   const musicId = navigation.getParam('musicId');
+
   return (
     <View style={styles.container}>
       <SafeAreaView>
