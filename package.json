@@ -27,9 +27,16 @@
     "jest": "^24.9.0",
     "metro-react-native-babel-preset": "^0.57.0",
     "plop": "^2.5.3",
+    "react-native-testing-library": "^1.12.0",
     "react-test-renderer": "16.9.0"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "transformIgnorePatterns": [
+      "node_modules/?!(react-navigation)"
+    ],
+    "setupFiles": [
+      "<rootDir>/src/lib/tests/setup.js"
+    ]
   }
 }
