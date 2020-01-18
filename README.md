@@ -6,6 +6,8 @@ A repertoire app for french military songs, done with React Native.
 
 Releases for Android are available [here](https://github.com/voisinhugo/ChantsMilitaires/releases).
 
+For iOS a web app is available [here](https://voisinhugo.github.io/chants-militaires-web).
+
 ## Install
 
 ```sh
